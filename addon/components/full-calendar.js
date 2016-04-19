@@ -60,6 +60,7 @@ export default Component.extend({
   eventTextColor: null,
   nextDayThreshold: "09:00:00",
   eventOrder: "title",
+  renderDelay: 0,
 
   // Event Dragging & Resizing
   editable: false,
@@ -145,6 +146,7 @@ export default Component.extend({
       eventTextColor: this.get('eventTextColor'),
       nextDayThreshold: this.get('nextDayThreshold'),
       eventOrder: this.get('eventOrder'),
+      renderDelay: this.get('renderDelay'),
 
       // Text/Time Customization
       lang: this.get('lang'),
