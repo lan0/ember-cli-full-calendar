@@ -77,7 +77,6 @@ export default Component.extend({
     var fullCalendarElement = this.$();
     fullCalendarElement.fullCalendar('removeEvents');
     fullCalendarElement.fullCalendar('addEventSource', this.get('events'));
-    fullCalendarElement.fullCalendar('rerenderEvents' );
   }),
 
   /**
