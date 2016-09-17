@@ -20,6 +20,7 @@ export default Component.extend({
   height: 'auto',
   eventLimit: false,
   businessHours: false,
+  navLinks: false,
 
   // Text/Time Customization
   locale: 'en',
@@ -113,6 +114,7 @@ export default Component.extend({
       titleFormat: this.get('titleFormat'),
       columnFormat: this.get('columnFormat'),
       nowIndicator: this.get('nowIndicator'),
+      navLinks: this.get('navLinks'),
 
       viewRender: (view, element) => {
         this.sendAction('viewRender', view, element);
