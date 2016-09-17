@@ -110,8 +110,8 @@ module.exports = function(defaults) {
   var app = ...
 
   // Complete list of lanugages: 
-  // https://github.com/fullcalendar/fullcalendar/tree/master/dist/lang
-  app.import('bower_components/fullcalendar/dist/lang/es.js');
+  // https://github.com/fullcalendar/fullcalendar/tree/master/dist/locale
+  app.import('bower_components/fullcalendar/dist/locale/es.js');
 };
 ```
 
@@ -120,7 +120,7 @@ module.exports = function(defaults) {
 {{
   full-calendar 
   events=events 
-  lang="es"
+  locale="es"
 }}
 ```
 

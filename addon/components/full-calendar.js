@@ -22,7 +22,7 @@ export default Component.extend({
   businessHours: false,
 
   // Text/Time Customization
-  lang: 'en',
+  locale: 'en',
   displayEventEnd: {
     month: false,
     basicView: false,
@@ -150,7 +150,7 @@ export default Component.extend({
       renderDelay: this.get('renderDelay'),
 
       // Text/Time Customization
-      lang: this.get('lang'),
+      locale: this.get('locale'),
       displayEventEnd: this.get('displayEventEnd'),
 
       // Clicking & Hovering
